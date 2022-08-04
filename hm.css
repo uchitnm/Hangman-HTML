@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  background-color: #fcf6e2;
+}
+
+hr {
+  border-top: 1px dotted brown;
+}
+
+#wrd_len {
+  font-size: 1.7rem;
+}
+
+.remaing_chances {
+  font-size: 1.7rem;
+}
+
+#result {
+  text-align: center;
+  color: darkblue;
+  font-size: 3rem;
+}
+
+#dashes {
+  display: inline;
+}
+
+#dashes {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+}
+
+.info .wd_len {
+  float: left;
+  color: green;
+}
+
+.info .remaing_chances {
+  float: right;
+  color: red;
+}
+
+#head_title {
+  text-align: center;
+  color: orangered;
+  font-size: 4rem;
+}
+
+.buttons {
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+#dashes {
+  font-size: 5rem;
+}
+
+input[type="button"] {
+  appearance: none;
+  border: none;
+  outline: black;
+  background: #dcd6bf;
+  border-radius: 0.2rem;
+  padding: 2.5rem 2.5rem;
+  font-size: 2rem;
+  height: 2rem;
+  width: 7rem;
+}
+
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: #01141a;
+  color: red;
+}
+
+input:disabled:hover {
+  opacity: 0.5;
+}
+input:disabled:active {
+  opacity: 0.5;
+}
+
+input:hover {
+  opacity: 0.4;
+}
+
+input:active {
+  opacity: 0.6;
+}

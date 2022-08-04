@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman GUI</title>
+    <link rel="stylesheet" href="hm.css" />
+    <script src="hm.js"></script>
+  </head>
+
+  <body onload="demo1(2)">
+    <h1 id="head_title"><u> The Hangman </u></h1>
+    <h4 id="result" style="text-align: center; color: darkblue"></h4>
+    <hr />
+    <header>
+      <div class="info">
+        <div class="wd_len">
+          <text id="wrd_len"></text>
+        </div>
+        <div class="remaing_chances">
+          <text id="chances_const">Remaing Chances :</text>
+          <text id="chances_var">10</text>
+        </div>
+        <br />
+      </div>
+
+      <br />
+      <hr />
+    </header>
+    <main>
+      <div class="main_section">
+        <div class="img_container">
+          <img id="HangmanPics" src="1.png" alt="Hangman Pics" />
+
+          <text id="dashes">dashes</text>
+        </div>
+      </div>
+      <br />
+    </main>
+    <hr />
+    <main>
+      <div class="buttons">
+        <form id="button">
+          <div class="1row">
+            <input
+              id="A"
+              type="button"
+              value="A"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="B"
+              type="button"
+              value="B"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="C"
+              type="button"
+              value="C"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="D"
+              type="button"
+              value="D"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="E"
+              type="button"
+              value="E"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="F"
+              type="button"
+              value="F"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="H"
+              type="button"
+              value="H"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="G"
+              type="button"
+              value="G"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="I"
+              type="button"
+              value="I"
+              onclick=" ButtonID(this.id)"
+            />
+          </div>
+          <br />
+          <div class="2row">
+            <input
+              id="J"
+              type="button"
+              value="J"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="K"
+              type="button"
+              value="K"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="L"
+              type="button"
+              value="L"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="M"
+              type="button"
+              value="M"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="N"
+              type="button"
+              value="N"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="O"
+              type="button"
+              value="O"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="P"
+              type="button"
+              value="P"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="Q"
+              type="button"
+              value="Q"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="R"
+              type="button"
+              value="R"
+              onclick=" ButtonID(this.id)"
+            />
+          </div>
+          <br />
+          <div class="3row">
+            <input
+              id="S"
+              type="button"
+              value="S"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="T"
+              type="button"
+              value="T"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="U"
+              type="button"
+              value="U"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="V"
+              type="button"
+              value="V"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="W"
+              type="button"
+              value="W"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="X"
+              type="button"
+              value="X"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="Y"
+              type="button"
+              value="Y"
+              onclick=" ButtonID(this.id)"
+            />
+            <input
+              id="Z"
+              type="button"
+              value="Z"
+              onclick=" ButtonID(this.id)"
+            />
+          </div>
+        </form>
+      </div>
+      <br />
+    </main>
+    <footer>Designed by: Uchit N M</footer>
+  </body>
+</html>
